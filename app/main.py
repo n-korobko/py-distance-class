@@ -19,7 +19,7 @@ class Distance:
         return NotImplemented
 
     def __iadd__(self, other: Distance | int | float) -> Distance:
-        if isinstance(other, Distance):
+        if isinstance(other, Distance):а
             self.km += other.km
             return self
         if isinstance(other, (int, float)):
